@@ -1,0 +1,23 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        
+                    xmlns:local="clr-namespace:DormFinding">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary>
+            <SolidColorBrush x:Key="colorGreen"
+                             Color="#2DCA73" />
+            <SolidColorBrush x:Key="colorWhite"
+                             Color="#F9F9F9" />
+            <SolidColorBrush x:Key="colorBlack"
+                             Color="#525252" />
+            <SolidColorBrush x:Key="colorBlue"
+                             Color="#0039AA" />
+            <SolidColorBrush x:Key="colorGray"
+                             Color="#DBDCDB" />
+            <SolidColorBrush x:Key="colorSky"
+                             Color="#75C7E0" />
+        </ResourceDictionary>
+        
+    </ResourceDictionary.MergedDictionaries>
+    
+</ResourceDictionary>

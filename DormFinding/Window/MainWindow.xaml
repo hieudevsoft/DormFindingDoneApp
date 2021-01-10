@@ -1,0 +1,55 @@
+﻿<Window x:Class="DormFinding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DormFinding"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="Login"
+        Icon="../images/icon_app.ico"
+        Height="470"
+        Width="740"      
+        Loaded="Window_Loaded"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        WindowStyle="None"
+        Background="Transparent"
+        Topmost="True"
+        MouseDown="Window_MouseDown">
+    <Window.DataContext>
+        <local:ValidationEmail />
+    </Window.DataContext>
+    <Border CornerRadius="1"
+            Background="#3AA7AE">
+    <Grid Cursor="Arrow">
+        <materialDesign:Transitioner SelectedIndex="0"
+                                     AutoApplyTransitionOrigins="True">
+            <Grid>
+                <local:Login />
+            </Grid>
+
+            <materialDesign:TransitionerSlide>
+                <materialDesign:TransitionerSlide.BackwardWipe>
+                    <materialDesign:CircleWipe />
+                </materialDesign:TransitionerSlide.BackwardWipe>
+                    <materialDesign:TransitionerSlide.ForwardWipe>
+                        <materialDesign:SlideWipe Direction="Up" />
+                    </materialDesign:TransitionerSlide.ForwardWipe>
+                    <local:SignUp />
+                </materialDesign:TransitionerSlide>
+            
+                <materialDesign:TransitionerSlide>
+                    <materialDesign:TransitionerSlide.BackwardWipe>
+                        <materialDesign:CircleWipe />
+                    </materialDesign:TransitionerSlide.BackwardWipe>
+                    <materialDesign:TransitionerSlide.ForwardWipe>
+                        <materialDesign:SlideWipe Direction="Up" />
+                    </materialDesign:TransitionerSlide.ForwardWipe>
+                    <local:ResetPassController />
+                </materialDesign:TransitionerSlide>
+            
+            </materialDesign:Transitioner>
+    </Grid>
+    </Border>
+</Window>

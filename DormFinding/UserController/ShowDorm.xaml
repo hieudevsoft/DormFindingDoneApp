@@ -1,0 +1,656 @@
+﻿<UserControl x:Class="DormFinding.ShowDorm"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:DormFinding"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:fa="http://schemas.fontawesome.io/icons/"
+             mc:Ignorable="d"
+             Background="Transparent"
+             Name="showDorm"
+             d:DesignHeight="720"
+             d:DesignWidth="1150">
+  
+
+    <materialDesign:TransitioningContent x:Name="TransitioningContentSlide"
+                                         OpeningEffect="{materialDesign:TransitionEffect SlideInFromLeft, Duration=0:0:0:0.5}">
+        <Grid x:Name="layoutDorm">
+            <Image Source="../images/image_like.png" x:Name="like"
+                   Stretch="Uniform"
+                   >
+            </Image>
+            <Border Width="auto"
+                    Height="auto"
+                    CornerRadius="15"
+                    Background="#A2D8E9"
+                    Padding="10">
+                <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.7*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                     <ColumnDefinition Width="0.7*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Border  Grid.Column="0"
+                             Background="#FAFAFA"
+                             CornerRadius="15">
+                        <Border.Effect>
+                            <DropShadowEffect BlurRadius="5"
+                                              ShadowDepth="1"
+                                              Color="Gray" />
+                        </Border.Effect>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="3.5*"></RowDefinition>
+                                <RowDefinition Height="1.2*"></RowDefinition>
+                                <RowDefinition Height="1.5*"></RowDefinition>
+                                <RowDefinition Height="0.8*"></RowDefinition>
+                                <RowDefinition Height="1.2*"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Border Grid.Row="0"
+                                    CornerRadius="15">
+                                <Button Width="auto"
+                                        Height="auto"
+                                        VerticalAlignment="Top"
+                                        HorizontalAlignment="Left"
+                                        BorderThickness="0"
+                                        Padding="0"
+                                        Margin="8"
+                                        Click="Button_Click"
+                                        Background="Transparent">
+                                    <materialDesign:PackIcon Kind="ArrowBack"
+                                                             Width="30"
+                                                             Height="30" />
+                                </Button>
+                                <Border.Background>
+                                    <ImageBrush ImageSource="{Binding ImageDorm, ElementName=showDorm}" />
+                                </Border.Background>
+                            </Border>
+                            <StackPanel Grid.Row="1"
+                                        Margin="15 10 0 0">
+                                <TextBlock Text="{Binding OwnerDorm, ElementName=showDorm}"
+                                           FontSize="20"
+                                           FontFamily="Avenir LT Std 65 Medium"
+                                           Foreground="#101010" />
+                                <TextBlock Text="{Binding AddressDorm, ElementName=showDorm}"
+                                           Margin="0 8 0 0"
+                                           FontSize="12"
+                                           FontFamily="Arial Rounded MT"
+                                           Foreground="Gray" />
+                                <TextBlock Text="{Binding SizeDorm, ElementName=showDorm}"
+                                           Foreground="DimGray"
+                                           Margin="0 8 0 0"
+                                           FontFamily="Arial Rounded MT"
+                                           FontSize="16"
+                                           />
+                            </StackPanel>
+                            <StackPanel Grid.Row="2"
+                                        Margin="15 0 0 0">
+                                <TextBlock Text="{Binding DesDorm, ElementName=showDorm}"
+                                           FontSize="11"
+                                           TextWrapping="WrapWithOverflow"
+                                           FontFamily="Avenir LT Std 65 Medium"
+                                           Foreground="LightSlateGray" />
+                            </StackPanel>
+                            <Grid Grid.Row="3"
+                                  Margin="15 0 0 0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <StackPanel Orientation="Vertical"
+                                            Grid.Column="0">
+                                    <Label Content="Rent fee"
+                                           FontSize="12"
+                                           FontFamily="Avenir LT Std 65 Medium"
+                                           Foreground="SlateGray" />
+                                    <Label Content="{Binding PriceDorm, ElementName=showDorm,StringFormat= {}{0:C}}"
+                                           FontSize="17"
+                                           HorizontalAlignment="Left"
+                                           FontFamily="Avenir LT Std 65 Medium" />
+                                </StackPanel>
+                                <StackPanel Orientation="Vertical"
+                                            Grid.Column="1">
+                                    <Label Content="Review"
+                                           FontSize="12"
+                                           Margin="10 0 0 0"
+                                           FontFamily="Avenir LT Std 65 Medium"
+                                           Foreground="SlateGray" />
+                                    <materialDesign:RatingBar IsHitTestVisible="False"
+                                                              Value="{Binding QualityDorm, ElementName=showDorm}"
+                                                              Foreground="#2DCA73"
+                                                              Margin="-20 0 0 0" />
+                                </StackPanel>
+                                <StackPanel Orientation="Vertical"
+                                            Margin="23 0 0 0"
+                                            Grid.Column="2">
+                                    <Label Content="Booked"
+                                           FontSize="12"
+                                           FontFamily="Avenir LT Std 65 Medium"
+                                           Foreground="SlateGray" />
+                                    <Label Content="{Binding CountDorm,ElementName=showDorm}"
+                                           HorizontalAlignment="Center"
+                                           Margin="0 0 25 0"
+                                           VerticalAlignment="Center"
+                                           FontSize="17"
+                                           FontFamily="Avenir LT Std 65 Medium" />
+                                </StackPanel>
+                            </Grid>
+                            <Grid Grid.Row="4">
+                                <StackPanel Orientation="Vertical"
+                                            Margin="12 0 0 0">
+                                    <TextBlock Text="Commodities"
+                                               Margin="3 0 0 0"
+                                               HorizontalAlignment="Left"
+                                               VerticalAlignment="Center"
+                                               FontSize="16"
+                                               FontFamily="Avenir LT Std 65 Medium" />
+                                    <StackPanel Orientation="Horizontal"
+                                                Margin="0 15 0 0">
+                                        <StackPanel.Resources>
+                                            <Style TargetType="Border">
+                                                <Setter Property="Width"
+                                                        Value="40" />
+                                                <Setter Property="Height"
+                                                        Value="40" />
+                                                <Setter Property="Margin"
+                                                        Value="0 0 10 0" />
+                                                <Setter Property="CornerRadius"
+                                                        Value="10" />
+                                                <Setter Property="Background"
+                                                        Value="#FAFAFA" />
+                                                <Setter Property="BorderThickness"
+                                                        Value="1.5" />
+                                                <Setter Property="BorderBrush"
+                                                        Value="#75C7E0" />
+                                            </Style>
+                                        </StackPanel.Resources>
+                                        <Border>
+                                            <Canvas HorizontalAlignment="Left"
+                                                    Width="40"
+                                                    Height="40"
+                                                    VerticalAlignment="Top">
+                                                <materialDesign:PackIcon Kind="Wifi"
+                                                                         Foreground="#75C7E0"
+                                                                         Canvas.Left="10"
+                                                                         Canvas.Top="11" />
+                                                <Image Source="/images/icon_line.png"
+                                                       Height="18"
+                                                       Width="18"
+                                                       Visibility="{Binding WifiDorm, ElementName=showDorm}"
+                                                       Canvas.Left="10"
+                                                       Canvas.Top="10" />
+                                            </Canvas>
+                                        </Border>
+                                        <Border>
+                                            <Canvas HorizontalAlignment="Left"
+                                                    Width="40"
+                                                    Height="40"
+                                                    VerticalAlignment="Top">
+                                                <materialDesign:PackIcon Kind="Bicycle"
+                                                                         Foreground="#75C7E0"
+                                                                         Canvas.Left="10"
+                                                                         Canvas.Top="11" />
+                                                <Image Source="/images/icon_line.png"
+                                                       Height="18"
+                                                       Width="18"
+                                                       Visibility="{Binding ParkingDorm, ElementName=showDorm}"
+                                                       Canvas.Left="10"
+                                                       Canvas.Top="10" />
+                                            </Canvas>
+                                        </Border>
+                                        <Border>
+                                            <Canvas HorizontalAlignment="Left"
+                                                    Width="40"
+                                                    Height="40"
+                                                    VerticalAlignment="Top">
+                                                <materialDesign:PackIcon Kind="Television"
+                                                                         Foreground="#75C7E0"
+                                                                         Canvas.Left="10"
+                                                                         Canvas.Top="11" />
+                                                <Image Source="/images/icon_line.png"
+                                                       Height="18"
+                                                       Width="18"
+                                                       Visibility="{Binding TelevisionDorm, ElementName=showDorm}"
+                                                       Canvas.Left="10"
+                                                       Canvas.Top="10" />
+                                            </Canvas>
+                                        </Border>
+                                        <Border>
+                                            <Canvas HorizontalAlignment="Left"
+                                                    Width="40"
+                                                    Height="40"
+                                                    VerticalAlignment="Top">
+                                                <fa:FontAwesome Icon="Bath"
+                                                                            FontSize="15"
+                                                                         Foreground="#75C7E0"
+                                                                         Canvas.Left="11"
+                                                                         Canvas.Top="11" />
+                                                <Image Source="/images/icon_line.png"
+                                                       Height="18"
+                                                       Width="18"
+                                                       Visibility="{Binding BathroomDorm, ElementName=showDorm}"
+                                                       Canvas.Left="10"
+                                                       Canvas.Top="10" />
+                                            </Canvas>
+                                        </Border>
+                                        <Border>
+                                            <Canvas HorizontalAlignment="Left"
+                                                    Width="40"
+                                                    Height="40"
+                                                    VerticalAlignment="Top">
+                                                <materialDesign:PackIcon Kind="AirConditioner"
+                                                                         Foreground="#75C7E0"
+                                                                         Canvas.Left="10"
+                                                                         Canvas.Top="11" />
+                                                <Image Source="/images/icon_line.png"
+                                                       Height="18"
+                                                       Width="18"
+                                                       Visibility="{Binding AirConditionerDorm, ElementName=showDorm}"
+                                                       Canvas.Left="10"
+                                                       Canvas.Top="10" />
+                                            </Canvas>
+                                        </Border>
+                                        <Border>
+                                            <Canvas HorizontalAlignment="Left"
+                                                    Width="40"
+                                                    Height="40"
+                                                    VerticalAlignment="Top">
+                                                <materialDesign:PackIcon Kind="WaterHeater"
+                                                                         Foreground="#75C7E0"
+                                                                         Canvas.Left="10"
+                                                                         Canvas.Top="11" />
+                                                <Image Source="/images/icon_line.png"
+                                                       Height="18"
+                                                       Width="18"
+                                                       Visibility="{Binding WaterHeaterDorm, ElementName=showDorm}"
+                                                       Canvas.Left="10"
+                                                       Canvas.Top="10" />
+                                            </Canvas>
+                                        </Border>
+                                    </StackPanel>
+                                </StackPanel>
+                            </Grid>
+                            <StackPanel Grid.Row="5"
+                                        Orientation="Horizontal"
+                                        Margin="15 0 0 0">
+                                <Button Padding="0"
+                                        Cursor="Hand"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Left"
+                                        Width="auto"
+                                        Height="auto"
+                                        Background="Transparent"
+                                        BorderThickness="0">
+                                    <StackPanel Orientation="Vertical">
+                                        <materialDesign:PackIcon Kind="Heart"
+                                                                 Width="30"
+                                                                 VerticalAlignment="Center"
+                                                                 MouseDown="PackIcon_MouseDown"
+                                                                 Foreground="Gray"
+                                                                 x:Name="likeIcon"
+                                                                 Height="30" />
+                                        <Label Content="{Binding CountLikeDorm, ElementName=showDorm}"
+                                               HorizontalAlignment="Center"
+                                               FontSize="12"
+                                               FontFamily="Limousin" />
+                                    </StackPanel>
+                                </Button>
+                                <Button Margin="50 0 0 0"
+                                        Width="190"
+                                        Height="44"
+                                        x:Name="btnBooked"
+                                        Click="btnBooked_Click"
+                                        BorderThickness="0"
+                                        Background="#2DCA73"
+                                        materialDesign:ButtonAssist.CornerRadius="10"
+                                        VerticalAlignment="Center">
+                                    <Button.Content>
+                                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center"           
+                                                    HorizontalAlignment="Center">
+                                            <fa:ImageAwesome  Icon="Spinner" 
+                                                             Foreground="White"
+                                                             Spin="True"
+                                                             Width="15"
+                                                             x:Name="spinnerBook"
+                                                             Visibility="Collapsed"
+                                                             Height="15"
+                                                             />
+                                            <Label Content="Book now" 
+                                                   Foreground="White"
+                                                   FontFamily="Avenir LT Std 65 Medium"
+                                                   FontSize="15"
+                                                   Margin="10 0 0 0"
+                                                   x:Name="lbStateBook"
+                                                   HorizontalAlignment="Center"
+                                                   VerticalAlignment="Center"
+                                                   />
+                                        </StackPanel> 
+                                    </Button.Content>
+                                </Button>
+                            </StackPanel>
+                        </Grid>
+                        
+                    </Border>
+                    <Border Grid.Column="1"
+                            CornerRadius="15"
+                            Background="#FAFAFA"
+                            Margin="15 0 15 0"
+                            Padding="10"
+                            >
+                        <Border.Effect>
+                            <DropShadowEffect BlurRadius="5"
+                                              ShadowDepth="1"
+                                              Color="Gray" />
+                        </Border.Effect>
+                        <StackPanel Orientation="Vertical" Width="auto"
+                                    Height="auto"
+                                    VerticalAlignment="Stretch"
+                                    HorizontalAlignment="Stretch"
+                                    >
+                        <ListView Height="550" ItemsSource="{Binding BookComment}"
+                                  x:Name="listViewComment"
+                                  materialDesign:ScrollViewerAssist.CornerRectangleVisibility="Hidden"
+                                  materialDesign:ScrollViewerAssist.IsAutoHideEnabled="True"
+                                  ScrollViewer.VerticalScrollBarVisibility="Auto"
+                                  >
+                                <ListView.ItemContainerStyle>
+                                    <Style TargetType="{x:Type ListViewItem}">
+                                        <Setter Property="Background"
+                                            Value="Transparent" />
+                                        <Setter Property="Template">
+                                            <Setter.Value>
+                                                <ControlTemplate TargetType="{x:Type ListViewItem}">
+                                                    <ContentPresenter />
+                                                </ControlTemplate>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Style>
+                                </ListView.ItemContainerStyle>
+                                <ListView.ItemTemplate>
+                                <DataTemplate>
+                                        <local:RowComment Margin="5" Width="398" Height="60"/>
+                                    </DataTemplate>
+                            </ListView.ItemTemplate>
+                                    
+                            <ListView.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <WrapPanel Orientation="Vertical" />
+                                </ItemsPanelTemplate>
+                            </ListView.ItemsPanel>
+                        </ListView>
+                            <materialDesign:RatingBar Padding="10 0 0 0"
+                                                      Grid.Column="0"
+                                                      Cursor="Hand"
+                                                      x:Name="ratingBar"
+                                                      Value="{Binding ValueRating,ElementName=showDorm}"
+                                                      Foreground="#2DCA73"
+                                                      VerticalAlignment="Center" />
+                            <Border Background="#F0F2F5"
+                                    CornerRadius="10"
+                                    Margin="10"
+                                    VerticalAlignment="Bottom"
+                                    HorizontalAlignment="Stretch"
+                                    Height="50">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="0.18*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Button Grid.Column="1" Background="Transparent" BorderThickness="0" Padding="0" x:Name="btnComment"
+                                            Width="25"
+                                            Height="25"
+                                            Click="btnComment_Click"
+                                            >
+                                    <materialDesign:PackIcon Kind="Send"
+                                                             VerticalAlignment="Center"
+                                                             HorizontalAlignment="Center"
+                                                             Width="25"
+                                                             Height="25"
+                                                             Cursor="Hand"
+                                                             x:Name="iconSend"
+                                                             Foreground="#171F38"
+                                                              />
+                                    </Button>
+                                    <TextBox Grid.Column="0" 
+                                             materialDesign:HintAssist.Hint="Comment"
+                                             FontSize="18"
+                                             Text="{Binding Comment, ElementName=showDorm}"
+                                             TextWrapping="Wrap"
+                                             AcceptsReturn="True"
+                                             x:Name="tbComment"
+                                             VerticalScrollBarVisibility="Auto"
+                                             Padding="5 0 0 0"
+                                             FontFamily="Avenir LT Std 65 Medium"
+                                             Foreground="#242365"
+                                             materialDesign:TextFieldAssist.UnderlineCornerRadius="2"
+                                             materialDesign:TextFieldAssist.DecorationVisibility="Collapsed"
+                                             materialDesign:HintAssist.Foreground="#242365"
+                                             materialDesign:TextFieldAssist.HasClearButton="True"
+                                             materialDesign:TextFieldAssist.RippleOnFocusEnabled="True"
+                                             materialDesign:TextFieldAssist.TextFieldCornerRadius="5"
+                                             VerticalAlignment="Center"
+                                             TextAlignment="Left"
+                                             BorderThickness="0"
+                                             VerticalContentAlignment="Center"
+                                             />
+                                </Grid>    
+                            </Border>
+                        </StackPanel>
+                    </Border>
+                    <Border Grid.Column="2"
+                            CornerRadius="15">
+                        <Border.Effect>
+                            <DropShadowEffect BlurRadius="5"
+                                              ShadowDepth="1"
+                                              Color="Gray" />
+                        </Border.Effect>
+                        <Border.Background>
+                        <ImageBrush ImageSource="../images/BackGround.png" Stretch="Fill"/>
+                        </Border.Background>
+                        <StackPanel Orientation="Vertical">
+                            <StackPanel.Resources>
+                                <SolidColorBrush x:Key="colorDark"
+                                                 Color="#2D2D30" />
+                            </StackPanel.Resources>
+                            <Ellipse Width="120"
+                                     Margin="0 180 80 0"
+                                     HorizontalAlignment="Right"
+                                     Height="120">
+                                <Ellipse.Fill>
+                                    <ImageBrush ImageSource="{Binding ImageOwner,ElementName=showDorm}"
+                                                x:Name="imgAvatarMini"
+                                                Stretch="UniformToFill" />
+                                </Ellipse.Fill>
+                            </Ellipse>
+                            <Grid Margin="0 40 0 0" Width="320" Height="320"
+                                  VerticalAlignment="Center" HorizontalAlignment="Left"
+                                  >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition />
+                                    <RowDefinition />
+                                    <RowDefinition />
+                                    <RowDefinition />
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+                                <Border Grid.Row="0"
+                                        Background="WhiteSmoke"
+                                        BorderThickness="0.41"
+                                        BorderBrush="LightGray"
+                                        Margin="10 0 10 10"
+                                        CornerRadius="10"
+                                        >
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="0.1*" />
+                                            <ColumnDefinition />
+                                        </Grid.ColumnDefinitions>
+                                        <materialDesign:PackIcon Kind="PersonBadge" 
+                                                                 Margin="5 0 0 0"
+                                                                 Width="25"
+                                                                 Height="25"
+                                                                 Foreground="{StaticResource colorDark}"
+                                                                 Grid.Column="0"
+                                                                 HorizontalAlignment="Center"
+                                                                 VerticalAlignment="Center"
+                                                                 />
+                                        <Label Content="{Binding NameOwner, ElementName=showDorm}"
+                                               FontFamily="Helvetica Neue"
+                                               Foreground="{StaticResource colorDark}"
+                                               Grid.Column="1"
+                                               FontSize="15"
+                                               Margin="20 0 0 0"
+                                               HorizontalAlignment="Left"
+                                               VerticalAlignment="Center" />
+                                    </Grid>
+                                </Border>
+                                <Border Grid.Row="1"
+                                        Background="WhiteSmoke"
+                                        BorderThickness="0.41"
+                                        BorderBrush="LightGray"
+                                        Margin="10 0 10 10"
+                                        CornerRadius="10">
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="0.1*" />
+                                            <ColumnDefinition />
+                                        </Grid.ColumnDefinitions>
+                                        <materialDesign:PackIcon Kind="Phone"
+                                                                 Width="25"
+                                                                 Margin="5 0 0 0"
+                                                                 Height="25"
+                                                                 Foreground="{StaticResource colorDark}"
+                                                                 Grid.Column="0"
+                                                                 HorizontalAlignment="Center"
+                                                                 VerticalAlignment="Center" />
+                                        <Label Content="{Binding PhoneOwner, ElementName=showDorm}"
+                                               FontFamily="Helvetica Neue"
+                                               Foreground="{StaticResource colorDark}"
+                                               Grid.Column="1"
+                                               FontSize="15"
+                                               Margin="20 0 0 0"
+                                               HorizontalAlignment="Left"
+                                               VerticalAlignment="Center" />
+                                    </Grid>
+                                </Border>
+                                <Border 
+                                        Grid.Row="2"
+                                        Background="WhiteSmoke"
+                                        BorderThickness="0.41"
+                                        BorderBrush="LightGray"
+                                        Margin="10 0 10 10"
+                                        CornerRadius="10">
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="0.1*" />
+                                            <ColumnDefinition />
+                                        </Grid.ColumnDefinitions>
+                                        <materialDesign:PackIcon Kind="Email"
+                                                                 Width="25"
+                                                                 Height="25"
+                                                                 Margin="5 0 0 0"
+                                                                 Foreground="{StaticResource colorDark}"
+                                                                 Grid.Column="0"
+                                                                 HorizontalAlignment="Center"
+                                                                 VerticalAlignment="Center" />
+                                        <ScrollViewer Grid.Column="1"
+                                                      VerticalScrollBarVisibility="Hidden"
+                                                      HorizontalScrollBarVisibility="Auto"
+                                                      materialDesign:ScrollViewerAssist.CornerRectangleVisibility="Collapsed"
+                                                      materialDesign:ScrollViewerAssist.IsAutoHideEnabled="True"
+                                                      materialDesign:ScrollViewerAssist.ShowSeparators="False"
+                                                      >
+                                            <Label 
+                                               x:Name="lbEmail"
+                                               FontFamily="Helvetica Neue"
+                                               Foreground="{StaticResource colorDark}"            
+                                               FontSize="15"
+                                               Margin="20 0 0 0"
+                                               HorizontalAlignment="Left"
+                                               VerticalAlignment="Center" />
+                                        </ScrollViewer>
+                                    </Grid>
+                                </Border>
+
+                                <Border Grid.Row="3"
+                                        Background="WhiteSmoke"
+                                        BorderThickness="0.41"
+                                        BorderBrush="LightGray"
+                                        Margin="10 0 10 10"
+                                        CornerRadius="10">
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="0.1*" />
+                                            <ColumnDefinition />
+                                        </Grid.ColumnDefinitions>
+                                        <materialDesign:PackIcon Kind="AddressMarker"
+                                                                 Width="25"
+                                                                 Height="25"
+                                                                 Margin="5 0 0 0"
+                                                                 Foreground="{StaticResource colorDark}"
+                                                                 Grid.Column="0"
+                                                                 HorizontalAlignment="Center"
+                                                                 VerticalAlignment="Center" />
+                                        <ScrollViewer Grid.Column="1"
+                                                      VerticalScrollBarVisibility="Hidden"
+                                                      HorizontalScrollBarVisibility="Auto"
+                                                      materialDesign:ScrollViewerAssist.CornerRectangleVisibility="Collapsed"
+                                                      materialDesign:ScrollViewerAssist.IsAutoHideEnabled="True"
+                                                      materialDesign:ScrollViewerAssist.ShowSeparators="False">
+                                            <Label Content="{Binding AddressOwner, ElementName=showDorm}"
+                                                   FontFamily="Helvetica Neue"
+                                                   Foreground="{StaticResource colorDark}"
+                                                   FontSize="15"
+                                                   Margin="20 0 0 0"
+                                                   HorizontalAlignment="Left"
+                                                   VerticalAlignment="Center" />
+                                        </ScrollViewer>
+                                    </Grid>
+                                </Border>
+
+                                <Border Grid.Row="4"
+                                        Background="WhiteSmoke"
+                                        BorderThickness="0.41"
+                                        BorderBrush="LightGray"
+                                        Margin="10 0 10 10"
+                                        CornerRadius="10">
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="0.1*" />
+                                            <ColumnDefinition />
+                                        </Grid.ColumnDefinitions>
+                                        <materialDesign:PackIcon Kind="GenderTransgender"
+                                                                 Width="25"
+                                                                 Height="25"
+                                                                 Margin="5 0 0 0"
+                                                                 Foreground="{StaticResource colorDark}"
+                                                                 Grid.Column="0"
+                                                                 HorizontalAlignment="Center"
+                                                                 VerticalAlignment="Center" />
+                                        <ScrollViewer Grid.Column="1"
+                                                      VerticalScrollBarVisibility="Hidden"
+                                                      HorizontalScrollBarVisibility="Auto"
+                                                      materialDesign:ScrollViewerAssist.CornerRectangleVisibility="Collapsed"
+                                                      materialDesign:ScrollViewerAssist.IsAutoHideEnabled="True"
+                                                      materialDesign:ScrollViewerAssist.ShowSeparators="False">
+                                            <Label Content="{Binding GenderOwner, ElementName=showDorm}"
+                                                   FontFamily="Helvetica Neue"
+                                                   Foreground="{StaticResource colorDark}"
+                                                   FontSize="15"
+                                                   Margin="20 0 0 0"
+                                                   HorizontalAlignment="Left"
+                                                   VerticalAlignment="Center" />
+                                        </ScrollViewer>
+                                    </Grid>
+                                </Border>
+                            </Grid>
+                        </StackPanel>
+                    </Border>
+                </Grid>
+        </Border>
+        </Grid>
+    </materialDesign:TransitioningContent>
+</UserControl>
+    

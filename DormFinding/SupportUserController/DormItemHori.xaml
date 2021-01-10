@@ -1,0 +1,76 @@
+﻿<UserControl x:Class="DormFinding.DormItemHori"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DormFinding"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             d:DesignHeight="190" d:DesignWidth="170">
+    <materialDesign:TransitioningContent x:Name="TransitioningContentSlide"
+                                         OpeningEffect="{materialDesign:TransitionEffect SlideInFromTop, Duration=0:0:0:0.8}">
+        <Grid Cursor="Hand">
+            <Grid.Resources>
+                <ResourceDictionary Source="../StyleResource.xaml" />
+            </Grid.Resources>
+            <Border Width="170"
+                    Padding="0"
+                    Height="190"
+                    CornerRadius="10"
+                    Background="{StaticResource colorWhite}"
+                    BorderThickness="0"
+                    >
+                <Border.Effect>
+                    <DropShadowEffect BlurRadius="2"
+                                      ShadowDepth="2"
+                                      Color="Gray" />
+                </Border.Effect>
+                <StackPanel Orientation="Vertical">
+                    <Border Width="170"
+                            CornerRadius="10 10 0 0"
+                            Height="115">
+                        <Border.Background>
+                        <ImageBrush ImageSource="{Binding Image}"                
+                               Stretch="UniformToFill" />
+                        </Border.Background>
+                    </Border>
+                    <TextBlock Text="{Binding Owner}"
+                               Foreground="Black"
+                               Margin="10 8 0 0"
+                               FontSize="14"
+                               FontFamily="Avenir LT Std 65 Medium" />
+                    <TextBlock Text="{Binding Address}"
+                               FontSize="10"
+                               Margin="10 1 0 0"
+                               Foreground="{StaticResource colorGray}" />
+                    <StackPanel Orientation="Horizontal"
+                                Margin="4 2 0 0">
+                        <materialDesign:PackIcon Kind="Dollar"
+                                                 VerticalAlignment="Center"
+                                                 Foreground="{StaticResource colorBlue}" />
+                        <TextBlock Text="{Binding Price}"
+                                   FontSize="12"
+                                   VerticalAlignment="Center"
+                                   Foreground="{StaticResource colorBlue}"
+                                   FontFamily="Avenir LT Std 65 Medium" />
+                        <TextBlock Text=" / months"
+                                   FontSize="12"
+                                   Margin="0 -2 0 0"
+                                   VerticalAlignment="Center"
+                                   Foreground="{StaticResource colorBlue}" FontFamily="Avenir LT Std 55 Roman" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal"
+                                Margin="10 0 5 5"
+                                VerticalAlignment="Center"
+                                HorizontalAlignment="Right">
+                        <TextBlock Text="{Binding Quality}"
+                                   FontSize="12"
+                                   Foreground="{StaticResource colorGreen}" />
+                        <materialDesign:PackIcon Kind="Star"
+                                                 Foreground="{StaticResource colorGreen}" />
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Grid>
+    </materialDesign:TransitioningContent>
+</UserControl>

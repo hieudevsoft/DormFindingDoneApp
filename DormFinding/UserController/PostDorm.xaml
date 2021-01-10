@@ -1,0 +1,619 @@
+﻿<UserControl x:Class="DormFinding.PostDorm"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:DormFinding"
+             xmlns:fa="http://schemas.fontawesome.io/icons/"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d"
+             Name="postDorm"
+             d:DesignHeight="720"
+             d:DesignWidth="1150">
+
+    <materialDesign:TransitioningContent x:Name="TransitioningContentSlideAdd"
+                                         OpeningEffect="{materialDesign:TransitionEffect SlideInFromLeft, Duration=0:0:0:0.5}">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button Width="auto"
+                        Height="auto"
+                        Grid.ColumnSpan="2"
+                        VerticalAlignment="Top"
+                        HorizontalAlignment="Left"
+                        BorderThickness="0"
+                        Padding="8"
+                        Margin="8"
+                        Visibility="Collapsed"
+                        Panel.ZIndex="1"
+                        x:Name="btnBack"
+                        Click="btnBack_Click"
+                        Background="Transparent">
+                <materialDesign:PackIcon Kind="ArrowBack"
+                                             Width="20"
+                                             Height="20" />
+            </Button>
+            <Grid Grid.Column="0"
+                      >
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Border Grid.Row="0"
+                            CornerRadius="15"
+                            Margin="10">
+
+                    <Border.Background>
+                        <ImageBrush ImageSource="{Binding ImageDorm, ElementName=postDorm}" Stretch="UniformToFill" />
+                    </Border.Background>
+                    <Button VerticalAlignment="Top"
+                                Background="Transparent"
+                                BorderThickness="0"
+                                x:Name="btnUploadDorm"
+                                Click="btnUploadDorm_Click"
+                                Cursor="Hand"
+                                Padding="0"
+                                Margin="10"
+                                HorizontalAlignment="Right">
+                        <materialDesign:PackIcon Kind="Camera"
+                                                     Width="30"
+                                                     Foreground="Black"
+                                                     Height="30" />
+                    </Button>
+                </Border>
+                <Border Grid.Row="2"
+                            CornerRadius="15"
+                            Margin="10 5">
+                    <Grid Width="auto"
+                              Height="auto">
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Border Grid.Row="0"
+                                    Background="White"
+                                    BorderBrush="#403F40"
+                                    Height="58"
+                                    Margin="0 0 0 5"
+                                    BorderThickness="0.4"
+                                    CornerRadius="10">
+                            <Border.Effect>
+                                <DropShadowEffect BlurRadius="2"
+                                                      ShadowDepth="1"
+                                                      Color="Gray" />
+                            </Border.Effect>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="0.1*" />
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <materialDesign:PackIcon Kind="Person"
+                                                             Foreground="#403F40"
+                                                             Margin="5 0 0 0"
+                                                             Width="25"
+                                                             Height="25"
+                                                             Grid.Column="0"
+                                                             HorizontalAlignment="Center"
+                                                             VerticalAlignment="Center" />
+                                <TextBox Grid.Column="1"
+                                             Height="50"
+                                             Padding="5 6 0 0"
+                                             x:Name="tbOwner"
+                                             Text="{Binding OwnerDorm, ElementName=postDorm}"
+                                             FontSize="16"
+                                             FontFamily="Avenir LT Std 65 Medium"
+                                             materialDesign:HintAssist.Hint="Owner"
+                                             materialDesign:TextFieldAssist.UnderlineCornerRadius="2"
+                                             materialDesign:TextFieldAssist.DecorationVisibility="Collapsed"
+                                             materialDesign:HintAssist.Foreground="#313131"
+                                             materialDesign:TextFieldAssist.HasClearButton="True"
+                                             materialDesign:TextFieldAssist.RippleOnFocusEnabled="True"
+                                             materialDesign:TextFieldAssist.TextFieldCornerRadius="5"
+                                             VerticalAlignment="Center"
+                                             TextAlignment="Left"
+                                             BorderThickness="0" />
+                            </Grid>
+                        </Border>
+                        <Border Grid.Row="1"
+                                    Background="White"
+                                    Margin="0 0 0 5"
+                                    BorderBrush="#403F40"
+                                    Height="58"
+                                    BorderThickness="0.4"
+                                    CornerRadius="10">
+                            <Border.Effect>
+                                <DropShadowEffect BlurRadius="2"
+                                                      ShadowDepth="1"
+                                                      Color="Gray" />
+                            </Border.Effect>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="0.1*" />
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <materialDesign:PackIcon Kind="Location"
+                                                             Foreground="#403F40"
+                                                             Margin="5 0 0 0"
+                                                             Width="25"
+                                                             Height="25"
+                                                             Grid.Column="0"
+                                                             HorizontalAlignment="Center"
+                                                             VerticalAlignment="Center" />
+                                <TextBox Grid.Column="1"
+                                             Height="50"
+                                             Text="{Binding AddressDorm, ElementName=postDorm}"
+                                             Padding="5 6 0 0"
+                                             x:Name="tbAddress"
+                                             FontSize="16"
+                                             FontFamily="Avenir LT Std 65 Medium"
+                                             materialDesign:HintAssist.Hint="Address"
+                                             materialDesign:TextFieldAssist.UnderlineCornerRadius="2"
+                                             materialDesign:TextFieldAssist.DecorationVisibility="Collapsed"
+                                             materialDesign:HintAssist.Foreground="#313131"
+                                             materialDesign:TextFieldAssist.HasClearButton="True"
+                                             materialDesign:TextFieldAssist.RippleOnFocusEnabled="True"
+                                             materialDesign:TextFieldAssist.TextFieldCornerRadius="5"
+                                             VerticalAlignment="Center"
+                                             TextAlignment="Left"
+                                             BorderThickness="0" />
+                            </Grid>
+                        </Border>
+                        <Border Grid.Row="2"
+                                    Background="White
+                                    "
+                                    BorderBrush="#403F40"
+                                    Height="58"
+                                    Margin="0 0 0 5"
+                                    BorderThickness="0.4"
+                                    CornerRadius="10">
+                            <Border.Effect>
+                                <DropShadowEffect BlurRadius="2"
+                                                      ShadowDepth="1"
+                                                      Color="Gray" />
+                            </Border.Effect>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="0.1*" />
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <materialDesign:PackIcon Kind="Money"
+                                                             Foreground="#403F40"
+                                                             Margin="5 0 0 0"
+                                                             Width="25"
+                                                             Height="25"
+                                                             Grid.Column="0"
+                                                             HorizontalAlignment="Center"
+                                                             VerticalAlignment="Center" />
+                                <TextBox Grid.Column="1"
+                                             Height="50"
+                                             Padding="5 6 0 0"
+                                             x:Name="tbPrice"
+                                             Text="{Binding PriceDorm, ElementName=postDorm}"
+                                             FontSize="16"
+                                             PreviewTextInput="tbPrice_PreviewTextInput"
+                                             FontFamily="Avenir LT Std 65 Medium"
+                                             materialDesign:HintAssist.Hint="Rent fee (per month)"
+                                             materialDesign:TextFieldAssist.UnderlineCornerRadius="2"
+                                             materialDesign:TextFieldAssist.DecorationVisibility="Collapsed"
+                                             materialDesign:HintAssist.Foreground="#313131"
+                                             materialDesign:TextFieldAssist.HasClearButton="True"
+                                             materialDesign:TextFieldAssist.RippleOnFocusEnabled="True"
+                                             materialDesign:TextFieldAssist.TextFieldCornerRadius="5"
+                                             VerticalAlignment="Center"
+                                             TextAlignment="Left"
+                                             BorderThickness="0" />
+                            </Grid>
+                        </Border>
+                        <Border Grid.Row="3"
+                                    Background="White"
+                                    BorderBrush="#403F40"
+                                    Height="58"
+                                    Margin="0 0 0 5"
+                                    BorderThickness="0.4"
+                                    CornerRadius="10">
+                            <Border.Effect>
+                                <DropShadowEffect BlurRadius="2"
+                                                      ShadowDepth="1"
+                                                      Color="Gray" />
+                            </Border.Effect>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="0.1*" />
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <materialDesign:PackIcon Kind="House"
+                                                             Foreground="#403F40"
+                                                             Margin="5 0 0 0"
+                                                             Width="25"
+                                                             Height="25"
+                                                             Grid.Column="0"
+                                                             HorizontalAlignment="Center"
+                                                             VerticalAlignment="Center" />
+                                <TextBox Grid.Column="1"
+                                             Height="50"
+                                             Padding="5 6 0 0"
+                                             x:Name="tbArea"
+                                             FontSize="16"
+                                             Text="{Binding AreaDorm, ElementName=postDorm}"
+                                             FontFamily="Avenir LT Std 65 Medium"
+                                             PreviewTextInput="tbArea_PreviewTextInput"
+                                             materialDesign:HintAssist.Hint="Area (m²)"
+                                             materialDesign:TextFieldAssist.UnderlineCornerRadius="2"
+                                             materialDesign:TextFieldAssist.DecorationVisibility="Collapsed"
+                                             materialDesign:HintAssist.Foreground="#313131"
+                                             materialDesign:TextFieldAssist.HasClearButton="True"
+                                             materialDesign:TextFieldAssist.RippleOnFocusEnabled="True"
+                                             materialDesign:TextFieldAssist.TextFieldCornerRadius="5"
+                                             VerticalAlignment="Center"
+                                             TextAlignment="Left"
+                                             BorderThickness="0" />
+                            </Grid>
+                        </Border>
+                        <Border Grid.Row="4"
+                                    Background="White"
+                                    BorderBrush="#403F40"
+                                    Height="58"
+                                    Margin="0 0 0 5"
+                                    BorderThickness="0.4"
+                                    CornerRadius="10">
+                            <Border.Effect>
+                                <DropShadowEffect BlurRadius="2"
+                                                      ShadowDepth="1"
+                                                      Color="Gray" />
+                            </Border.Effect>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="0.1*" />
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <materialDesign:PackIcon Kind="Sale"
+                                                             Foreground="#403F40"
+                                                             Margin="5 0 0 0"
+                                                             Width="25"
+                                                             Height="25"
+                                                             Grid.Column="0"
+                                                             HorizontalAlignment="Center"
+                                                             VerticalAlignment="Center" />
+                                <TextBox Grid.Column="1"
+                                             Height="50"
+                                             Padding="5 6 0 0"
+                                             x:Name="tbSale"
+                                             FontSize="16"
+                                             Text="{Binding SaleDorm, ElementName=postDorm}"
+                                             FontFamily="Avenir LT Std 65 Medium"
+                                             PreviewTextInput="tbSale_PreviewTextInput"
+                                             materialDesign:HintAssist.Hint="Discount (%)"
+                                             materialDesign:TextFieldAssist.UnderlineCornerRadius="2"
+                                             materialDesign:TextFieldAssist.DecorationVisibility="Collapsed"
+                                             materialDesign:HintAssist.Foreground="#313131"
+                                             materialDesign:TextFieldAssist.HasClearButton="True"
+                                             materialDesign:TextFieldAssist.RippleOnFocusEnabled="True"
+                                             materialDesign:TextFieldAssist.TextFieldCornerRadius="5"
+                                             VerticalAlignment="Center"
+                                             TextAlignment="Left"
+                                             BorderThickness="0" />
+                            </Grid>
+                        </Border>
+                    </Grid>
+                </Border>
+            </Grid>
+            <Grid Grid.Column="2"
+                      Margin="0 10 10 10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.4*"/>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Border  CornerRadius="15"
+                           >
+                        <Border.Effect>
+                            <DropShadowEffect BlurRadius="2"
+                                              ShadowDepth="1"
+                                              Color="Gray" />
+                        </Border.Effect>
+                        <Border CornerRadius="10"
+                                Background="White"
+                                BorderThickness="2"
+                                HorizontalAlignment="Stretch"
+                                VerticalAlignment="Top">
+                            <TextBox Grid.Column="1"
+                                     Height="180"
+                                     Text="{Binding DesDorm, ElementName=postDorm}"
+                                     Padding="5 6 0 0"
+                                     FontSize="16"
+                                     x:Name="tbDes"
+                                     FontFamily="Avenir LT Std 65 Medium"
+                                     TextWrapping="Wrap"
+                                     AcceptsReturn="True"
+                                     VerticalScrollBarVisibility="Auto"
+                                     materialDesign:HintAssist.Hint="Description"
+                                     materialDesign:TextFieldAssist.UnderlineCornerRadius="2"
+                                     materialDesign:TextFieldAssist.DecorationVisibility="Collapsed"
+                                     materialDesign:HintAssist.Foreground="#313131"
+                                     materialDesign:TextFieldAssist.HasClearButton="True"
+                                     materialDesign:TextFieldAssist.RippleOnFocusEnabled="True"
+                                     materialDesign:TextFieldAssist.TextFieldCornerRadius="5"
+                                     VerticalAlignment="Center"
+                                     TextAlignment="Left"
+                                     BorderThickness="0" />
+                        </Border>
+                    </Border>
+                </Grid>
+                <Border Grid.Row="1" Background="White"
+                            CornerRadius="15"
+                            >
+                    <Border.Effect>
+                        <DropShadowEffect BlurRadius="2"
+                                              ShadowDepth="1"
+                                              Color="Gray" />
+                    </Border.Effect>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Row="0"
+                                       HorizontalAlignment="Center"
+                                       FontSize="25"
+                                       Text="Commodity"
+                                       FontFamily="Avenir LT Std 65 Medium"
+                                       VerticalAlignment="Center" />
+                        <WrapPanel Grid.Row="1" VerticalAlignment="Center"
+                                       HorizontalAlignment="Center"
+                                       Orientation="Horizontal"
+                                       >
+                            <Grid Width="380">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <Label Content="Wifi:"
+                                           Grid.Column="0"
+                                           VerticalAlignment="Center"
+                                           HorizontalContentAlignment="Center"
+                                           HorizontalAlignment="Center"
+                                           FontFamily="Avenir LT Std 65 Medium"
+                                           FontSize="14"
+                                           Foreground="Black" />
+                                <fa:FontAwesome Icon="Wifi"
+                                                    FontSize="20"
+                                                    Grid.Column="1"
+                                                    VerticalAlignment="Center"
+                                                    HorizontalAlignment="Center" />
+                                <ToggleButton Margin="20 0 0 0"
+                                                  Background="#58B0C9"
+                                                  Grid.Column="2"
+                                                  IsChecked="{Binding WifiDorm, ElementName=postDorm}"
+                                                  HorizontalAlignment="Center"
+                                                  materialDesign:ToggleButtonAssist.SwitchTrackOffBackground="Gray"
+                                                  materialDesign:ToggleButtonAssist.SwitchTrackOnBackground="#58B0C9" />
+                            </Grid>
+
+                        </WrapPanel>
+                        <WrapPanel Grid.Row="2"
+                                       VerticalAlignment="Center"
+                                       HorizontalAlignment="Center"
+                                       Orientation="Horizontal">
+                            <Grid Width="380">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <Label Content="Parking:"
+                                           Grid.Column="0"
+                                           VerticalAlignment="Center"
+                                           HorizontalContentAlignment="Center"
+                                           HorizontalAlignment="Center"
+                                           FontFamily="Avenir LT Std 65 Medium"
+                                           FontSize="14"
+                                           Foreground="Black" />
+                                <fa:FontAwesome Icon="Bicycle"
+                                                    FontSize="20"
+                                                    Grid.Column="1"
+                                                    VerticalAlignment="Center"
+                                                    HorizontalAlignment="Center" />
+                                <ToggleButton Margin="20 0 0 0"
+                                                  Background="#58B0C9"
+                                                  Grid.Column="2"
+                                                  IsChecked="{Binding ParkingDorm, ElementName=postDorm}"
+                                                  HorizontalAlignment="Center"
+                                                  materialDesign:ToggleButtonAssist.SwitchTrackOffBackground="Gray"
+                                                  materialDesign:ToggleButtonAssist.SwitchTrackOnBackground="#58B0C9" />
+                            </Grid>
+
+                        </WrapPanel>
+                        <WrapPanel Grid.Row="3"
+                                       VerticalAlignment="Center"
+                                       HorizontalAlignment="Center"
+                                       Orientation="Horizontal">
+                            <Grid Width="380">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <Label Content="Television:"
+                                           Grid.Column="0"
+                                           VerticalAlignment="Center"
+                                           HorizontalContentAlignment="Center"
+                                           HorizontalAlignment="Center"
+                                           FontFamily="Avenir LT Std 65 Medium"
+                                           FontSize="14"
+                                           Foreground="Black" />
+                                <fa:FontAwesome Icon="Television"
+                                                    FontSize="20"
+                                                    Grid.Column="1"
+                                                    VerticalAlignment="Center"
+                                                    HorizontalAlignment="Center" />
+                                <ToggleButton Margin="20 0 0 0"
+                                                  Background="#58B0C9"
+                                                  Grid.Column="2"
+                                                  IsChecked="{Binding TelevisionDorm, ElementName=postDorm}"
+                                                  HorizontalAlignment="Center"
+                                                  materialDesign:ToggleButtonAssist.SwitchTrackOffBackground="Gray"
+                                                  materialDesign:ToggleButtonAssist.SwitchTrackOnBackground="#58B0C9" />
+                            </Grid>
+
+                        </WrapPanel>
+                        <WrapPanel Grid.Row="4"
+                                       VerticalAlignment="Center"
+                                       HorizontalAlignment="Center"
+                                       Orientation="Horizontal">
+                            <Grid Width="380">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <Label Content="Bathroom:"
+                                           Grid.Column="0"
+                                           VerticalAlignment="Center"
+                                           HorizontalContentAlignment="Center"
+                                           HorizontalAlignment="Center"
+                                           FontFamily="Avenir LT Std 65 Medium"
+                                           FontSize="14"
+                                           Foreground="Black" />
+                                <fa:FontAwesome Icon="Bath"
+                                                    FontSize="20"
+                                                    Grid.Column="1"
+                                                    VerticalAlignment="Center"
+                                                    HorizontalAlignment="Center" />
+                                <ToggleButton Margin="20 0 0 0"
+                                                  Background="#58B0C9"
+                                                  Grid.Column="2"
+                                                  IsChecked="{Binding BathDorm, ElementName=postDorm}"
+                                                  HorizontalAlignment="Center"
+                                                  materialDesign:ToggleButtonAssist.SwitchTrackOffBackground="Gray"
+                                                  materialDesign:ToggleButtonAssist.SwitchTrackOnBackground="#58B0C9" />
+                            </Grid>
+
+                        </WrapPanel>
+                        <WrapPanel Grid.Row="5"
+                                       VerticalAlignment="Center"
+                                       HorizontalAlignment="Center"
+                                       Orientation="Horizontal">
+                            <Grid Width="380">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <Label Content="Air Condinitioner:"
+                                           Grid.Column="0"
+                                           VerticalAlignment="Center"
+                                           HorizontalContentAlignment="Center"
+                                           HorizontalAlignment="Center"
+                                           FontFamily="Avenir LT Std 65 Medium"
+                                           FontSize="14"
+                                           Foreground="Black" />
+                                <materialDesign:PackIcon Kind="AirConditioner"
+                                                    Width="20"
+                                                    Height="20"
+                                                    Grid.Column="1"
+                                                    VerticalAlignment="Center"
+                                                    HorizontalAlignment="Center" />
+                                <ToggleButton Margin="20 0 0 0"
+                                                  Background="#58B0C9"
+                                                  Grid.Column="2"
+                                                  IsChecked="{Binding AirConDorm, ElementName=postDorm}"
+                                                  HorizontalAlignment="Center"
+                                                  materialDesign:ToggleButtonAssist.SwitchTrackOffBackground="Gray"
+                                                  materialDesign:ToggleButtonAssist.SwitchTrackOnBackground="#58B0C9" />
+                            </Grid>
+
+                        </WrapPanel>
+                        <WrapPanel Grid.Row="6"
+                                       VerticalAlignment="Center"
+                                       HorizontalAlignment="Center"
+                                       Orientation="Horizontal">
+                            <Grid Width="380">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <Label Content="Air Condinitioner:"
+                                           Grid.Column="0"
+                                           VerticalAlignment="Center"
+                                           HorizontalContentAlignment="Center"
+                                           HorizontalAlignment="Center"
+                                           FontFamily="Avenir LT Std 65 Medium"
+                                           FontSize="14"
+                                           Foreground="Black" />
+                                <materialDesign:PackIcon Kind="WaterHeater"
+                                                             Width="20"
+                                                             Height="20"
+                                                             Grid.Column="1"
+                                                             VerticalAlignment="Center"
+                                                             HorizontalAlignment="Center" />
+                                <ToggleButton Margin="20 0 0 0"
+                                                  Background="#58B0C9"
+                                                  Grid.Column="2"
+                                                  IsChecked="{Binding WaterHeaterDorm, ElementName=postDorm}"
+                                                  HorizontalAlignment="Center"
+                                                  materialDesign:ToggleButtonAssist.SwitchTrackOffBackground="Gray"
+                                                  materialDesign:ToggleButtonAssist.SwitchTrackOnBackground="#58B0C9" />
+                            </Grid>
+
+                        </WrapPanel>
+                        <Button VerticalAlignment="Center"
+                                Grid.Row="7"
+                                HorizontalAlignment="Center"
+                                FontFamily="Avenir LT Std 65 Medium"
+                                BorderThickness="0"
+                                Width="110"
+                                x:Name="btnUpload"
+                                Click="btnUpload_Click"
+                                materialDesign:ButtonAssist.CornerRadius="20"
+                                Height="40">
+                            <Button.Content>
+                                <WrapPanel Orientation="Horizontal">
+                                    <fa:FontAwesome Icon="Cog"
+                                                    Spin="True"
+                                                    VerticalAlignment="Center"
+                                                    Margin="0 0 5 0" />
+                                    <Label Content="Upload"
+                                           Foreground="White" />
+                                </WrapPanel>
+                            </Button.Content>
+                            <Button.Background>
+                                <LinearGradientBrush EndPoint="0.5,1"
+                                                     MappingMode="RelativeToBoundingBox"
+                                                     StartPoint="0.5,0">
+                                    <LinearGradientBrush.RelativeTransform>
+                                        <TransformGroup>
+                                            <ScaleTransform CenterY="0.5"
+                                                            CenterX="0.5" />
+                                            <SkewTransform CenterY="0.5"
+                                                           CenterX="0.5" />
+                                            <RotateTransform Angle="270"
+                                                             CenterY="0.5"
+                                                             CenterX="0.5" />
+                                            <TranslateTransform />
+                                        </TransformGroup>
+                                    </LinearGradientBrush.RelativeTransform>
+                                    <GradientStop Color="#FFD92659"
+                                                  Offset="0.847" />
+                                    <GradientStop Color="#FFF0712B" />
+                                </LinearGradientBrush>
+                            </Button.Background>
+                        </Button>
+                    </Grid>
+                </Border>
+            </Grid>
+        </Grid>
+    </materialDesign:TransitioningContent>
+</UserControl>

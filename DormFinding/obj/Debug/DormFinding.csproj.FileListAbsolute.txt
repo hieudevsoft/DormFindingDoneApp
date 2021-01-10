@@ -1,0 +1,523 @@
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\DormFinding.exe.config
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\DormFinding.exe
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\DormFinding.pdb
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\BouncyCastle.Crypto.dll
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\CmdLine.dll
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\Facebook.dll
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\FontAwesome.WPF.dll
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\Google.Protobuf.dll
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\K4os.Compression.LZ4.dll
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\K4os.Hash.xxHash.dll
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\MaterialDesignColors.dll
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\MySql.Data.dll
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\Prism.dll
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\Prism.Wpf.dll
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\Renci.SshNet.dll
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\System.Buffers.dll
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\System.Data.SqlClient.dll
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\System.Memory.dll
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\System.Numerics.Vectors.dll
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\Ubiety.Dns.Core.dll
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\Zstandard.Net.dll
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\Facebook.xml
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\FontAwesome.WPF.xml
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\Google.Protobuf.pdb
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\Google.Protobuf.xml
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\K4os.Compression.LZ4.xml
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\K4os.Hash.xxHash.xml
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\MaterialDesignColors.pdb
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\MySql.Data.xml
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\Prism.pdb
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\Prism.xml
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\Prism.Wpf.pdb
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\Prism.Wpf.xml
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\Renci.SshNet.xml
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\System.Buffers.xml
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\System.Data.SqlClient.xml
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\System.Memory.xml
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\System.Numerics.Vectors.xml
+D:\DormFinding\DormFinding\DormFinding\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\MyDorm.g.cs
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\LikedDorm.g.cs
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\PostDorm.g.cs
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\ShowDorm.g.cs
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\SupportUserController\DormItemHori.g.cs
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\HomeControl.g.cs
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\SupportUserController\DormItem.g.cs
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\SupportUserController\Noti_Login_Success.g.cs
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\SliderShow.g.cs
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\SupportUserController\ResetPassController.g.cs
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\Window\MainControl.g.cs
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\LoadingBar.g.cs
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\SignUp.g.cs
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\Login.g.cs
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\Window\MainWindow.g.cs
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\Window\SplashScreen.g.cs
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\App.g.cs
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\DormFinding_MarkupCompile.cache
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\DormFinding_MarkupCompile.lref
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\App.baml
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\MyDorm.baml
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\LikedDorm.baml
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\PostDorm.baml
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\ShowDorm.baml
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\SupportUserController\DormItemHori.baml
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\HomeControl.baml
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\SupportUserController\DormItem.baml
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\StyleResource.baml
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\SupportUserController\Noti_Login_Success.baml
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\SliderShow.baml
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\SupportUserController\ResetPassController.baml
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\Window\MainControl.baml
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\LoadingBar.baml
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\SignUp.baml
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\Login.baml
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\Window\MainWindow.baml
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\Window\SplashScreen.baml
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\DormFinding.g.resources
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\DormFinding.Properties.Resources.resources
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\DormFinding.csproj.GenerateResource.cache
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\DormFinding.csproj.CoreCompileInputs.cache
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\DormFinding.csproj.CopyComplete
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\DormFinding.exe
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\DormFinding.pdb
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\DormFinding.exe.config
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\DormFinding.exe
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\DormFinding.pdb
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\BouncyCastle.Crypto.dll
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\CmdLine.dll
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\Facebook.dll
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\FontAwesome.WPF.dll
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\Google.Protobuf.dll
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\K4os.Compression.LZ4.dll
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\K4os.Hash.xxHash.dll
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\MaterialDesignColors.dll
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\MySql.Data.dll
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\Prism.dll
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\Prism.Wpf.dll
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\Renci.SshNet.dll
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\System.Buffers.dll
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\System.Data.SqlClient.dll
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\System.Memory.dll
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\System.Numerics.Vectors.dll
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\Ubiety.Dns.Core.dll
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\Zstandard.Net.dll
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\Facebook.xml
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\FontAwesome.WPF.xml
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\Google.Protobuf.pdb
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\Google.Protobuf.xml
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\K4os.Compression.LZ4.xml
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\K4os.Hash.xxHash.xml
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\MaterialDesignColors.pdb
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\MySql.Data.xml
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\Prism.pdb
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\Prism.xml
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\Prism.Wpf.pdb
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\Prism.Wpf.xml
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\Renci.SshNet.xml
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\System.Buffers.xml
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\System.Data.SqlClient.xml
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\System.Memory.xml
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\System.Numerics.Vectors.xml
+D:\C#\DORMFINDING\DormFinding\DormFinding\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\SupportUserController\RowLayout.g.cs
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\UserController\MyDorm.g.cs
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\UserController\LikedDorm.g.cs
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\UserController\PostDorm.g.cs
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\Profile.g.cs
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\UserController\ShowDorm.g.cs
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\SupportUserController\DormItemHori.g.cs
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\UserController\HomeControl.g.cs
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\SupportUserController\DormItem.g.cs
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\SupportUserController\Noti_Login_Success.g.cs
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\UserController\SliderShow.g.cs
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\SupportUserController\ResetPassController.g.cs
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\Window\MainControl.g.cs
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\UserController\LoadingBar.g.cs
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\UserController\SignUp.g.cs
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\UserController\Login.g.cs
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\Window\MainWindow.g.cs
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\Window\SplashScreen.g.cs
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\App.g.cs
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\DormFinding_MarkupCompile.cache
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\DormFinding_MarkupCompile.lref
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\App.baml
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\SupportUserController\RowLayout.baml
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\UserController\MyDorm.baml
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\UserController\LikedDorm.baml
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\UserController\PostDorm.baml
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\Profile.baml
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\UserController\ShowDorm.baml
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\SupportUserController\DormItemHori.baml
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\UserController\HomeControl.baml
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\SupportUserController\DormItem.baml
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\StyleResource.baml
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\SupportUserController\Noti_Login_Success.baml
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\UserController\SliderShow.baml
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\SupportUserController\ResetPassController.baml
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\Window\MainControl.baml
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\UserController\LoadingBar.baml
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\UserController\SignUp.baml
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\UserController\Login.baml
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\Window\MainWindow.baml
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\Window\SplashScreen.baml
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\DormFinding.g.resources
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\DormFinding.Properties.Resources.resources
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\DormFinding.csproj.GenerateResource.cache
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\DormFinding.csproj.CoreCompileInputs.cache
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\DormFinding.csproj.CopyComplete
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\DormFinding.exe
+D:\C#\DORMFINDING\DormFinding\DormFinding\obj\Debug\DormFinding.pdb
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\SupportUserController\RowComment.g.cs
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\ScreenBooking.g.cs
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\SupportUserController\RowBooking.g.cs
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\SupportUserController\RowLayout.g.cs
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\MyDorm.g.cs
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\LikedDorm.g.cs
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\PostDorm.g.cs
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\Profile.g.cs
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\ShowDorm.g.cs
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\SupportUserController\DormItemHori.g.cs
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\HomeControl.g.cs
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\SupportUserController\DormItem.g.cs
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\SupportUserController\Noti_Login_Success.g.cs
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\SliderShow.g.cs
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\SupportUserController\ResetPassController.g.cs
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\Window\MainControl.g.cs
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\LoadingBar.g.cs
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\SignUp.g.cs
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\Login.g.cs
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\Window\MainWindow.g.cs
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\Window\SplashScreen.g.cs
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\App.g.cs
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\DormFinding_MarkupCompile.cache
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\DormFinding_MarkupCompile.lref
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\DormFinding.exe.config
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\DormFinding.exe
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\DormFinding.pdb
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\BouncyCastle.Crypto.dll
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\CmdLine.dll
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\Facebook.dll
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\FontAwesome.WPF.dll
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\Google.Protobuf.dll
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\K4os.Compression.LZ4.dll
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\K4os.Hash.xxHash.dll
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\MaterialDesignColors.dll
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\MySql.Data.dll
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\Prism.dll
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\Prism.Wpf.dll
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\Renci.SshNet.dll
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\System.Buffers.dll
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\System.Data.SqlClient.dll
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\System.Memory.dll
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\System.Numerics.Vectors.dll
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\Ubiety.Dns.Core.dll
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\Zstandard.Net.dll
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\Facebook.xml
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\FontAwesome.WPF.xml
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\Google.Protobuf.pdb
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\Google.Protobuf.xml
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\K4os.Compression.LZ4.xml
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\K4os.Hash.xxHash.xml
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\MaterialDesignColors.pdb
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\MySql.Data.xml
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\Prism.pdb
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\Prism.xml
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\Prism.Wpf.pdb
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\Prism.Wpf.xml
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\Renci.SshNet.xml
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\System.Buffers.xml
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\System.Data.SqlClient.xml
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\System.Memory.xml
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\System.Numerics.Vectors.xml
+D:\Program Data\DormFinding\DormFinding\DormFinding\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\App.baml
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\SupportUserController\RowComment.baml
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\ScreenBooking.baml
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\SupportUserController\RowBooking.baml
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\SupportUserController\RowLayout.baml
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\MyDorm.baml
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\LikedDorm.baml
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\PostDorm.baml
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\Profile.baml
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\ShowDorm.baml
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\SupportUserController\DormItemHori.baml
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\HomeControl.baml
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\SupportUserController\DormItem.baml
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\StyleResource.baml
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\SupportUserController\Noti_Login_Success.baml
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\SliderShow.baml
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\SupportUserController\ResetPassController.baml
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\Window\MainControl.baml
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\LoadingBar.baml
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\SignUp.baml
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\Login.baml
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\Window\MainWindow.baml
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\Window\SplashScreen.baml
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\DormFinding.g.resources
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\DormFinding.Properties.Resources.resources
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\DormFinding.csproj.GenerateResource.cache
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\DormFinding.csproj.CoreCompileInputs.cache
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\DormFinding.csproj.CopyComplete
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\DormFinding.exe
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\DormFinding.pdb
+D:\Program Data\DormFinding\DormFinding\DormFinding\obj\Debug\DormFinding.csprojAssemblyReference.cache
+D:\Dorm\DormFinding\DormFinding\bin\Debug\DormFinding.exe.config
+D:\Dorm\DormFinding\DormFinding\bin\Debug\DormFinding.exe
+D:\Dorm\DormFinding\DormFinding\bin\Debug\DormFinding.pdb
+D:\Dorm\DormFinding\DormFinding\bin\Debug\BouncyCastle.Crypto.dll
+D:\Dorm\DormFinding\DormFinding\bin\Debug\CmdLine.dll
+D:\Dorm\DormFinding\DormFinding\bin\Debug\Facebook.dll
+D:\Dorm\DormFinding\DormFinding\bin\Debug\FontAwesome.WPF.dll
+D:\Dorm\DormFinding\DormFinding\bin\Debug\Google.Protobuf.dll
+D:\Dorm\DormFinding\DormFinding\bin\Debug\K4os.Compression.LZ4.dll
+D:\Dorm\DormFinding\DormFinding\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Dorm\DormFinding\DormFinding\bin\Debug\K4os.Hash.xxHash.dll
+D:\Dorm\DormFinding\DormFinding\bin\Debug\MaterialDesignColors.dll
+D:\Dorm\DormFinding\DormFinding\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Dorm\DormFinding\DormFinding\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\Dorm\DormFinding\DormFinding\bin\Debug\MySql.Data.dll
+D:\Dorm\DormFinding\DormFinding\bin\Debug\Prism.dll
+D:\Dorm\DormFinding\DormFinding\bin\Debug\Prism.Wpf.dll
+D:\Dorm\DormFinding\DormFinding\bin\Debug\Renci.SshNet.dll
+D:\Dorm\DormFinding\DormFinding\bin\Debug\System.Buffers.dll
+D:\Dorm\DormFinding\DormFinding\bin\Debug\System.Data.SqlClient.dll
+D:\Dorm\DormFinding\DormFinding\bin\Debug\System.Memory.dll
+D:\Dorm\DormFinding\DormFinding\bin\Debug\System.Numerics.Vectors.dll
+D:\Dorm\DormFinding\DormFinding\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Dorm\DormFinding\DormFinding\bin\Debug\Ubiety.Dns.Core.dll
+D:\Dorm\DormFinding\DormFinding\bin\Debug\Zstandard.Net.dll
+D:\Dorm\DormFinding\DormFinding\bin\Debug\Facebook.xml
+D:\Dorm\DormFinding\DormFinding\bin\Debug\FontAwesome.WPF.xml
+D:\Dorm\DormFinding\DormFinding\bin\Debug\Google.Protobuf.pdb
+D:\Dorm\DormFinding\DormFinding\bin\Debug\Google.Protobuf.xml
+D:\Dorm\DormFinding\DormFinding\bin\Debug\K4os.Compression.LZ4.xml
+D:\Dorm\DormFinding\DormFinding\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Dorm\DormFinding\DormFinding\bin\Debug\K4os.Hash.xxHash.xml
+D:\Dorm\DormFinding\DormFinding\bin\Debug\MaterialDesignColors.pdb
+D:\Dorm\DormFinding\DormFinding\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Dorm\DormFinding\DormFinding\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Dorm\DormFinding\DormFinding\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\Dorm\DormFinding\DormFinding\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\Dorm\DormFinding\DormFinding\bin\Debug\MySql.Data.xml
+D:\Dorm\DormFinding\DormFinding\bin\Debug\Prism.pdb
+D:\Dorm\DormFinding\DormFinding\bin\Debug\Prism.xml
+D:\Dorm\DormFinding\DormFinding\bin\Debug\Prism.Wpf.pdb
+D:\Dorm\DormFinding\DormFinding\bin\Debug\Prism.Wpf.xml
+D:\Dorm\DormFinding\DormFinding\bin\Debug\Renci.SshNet.xml
+D:\Dorm\DormFinding\DormFinding\bin\Debug\System.Buffers.xml
+D:\Dorm\DormFinding\DormFinding\bin\Debug\System.Data.SqlClient.xml
+D:\Dorm\DormFinding\DormFinding\bin\Debug\System.Memory.xml
+D:\Dorm\DormFinding\DormFinding\bin\Debug\System.Numerics.Vectors.xml
+D:\Dorm\DormFinding\DormFinding\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\RowComment.g.cs
+D:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\ScreenBooking.g.cs
+D:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\RowBooking.g.cs
+D:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\RowLayout.g.cs
+D:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\MyDorm.g.cs
+D:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\LikedDorm.g.cs
+D:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\PostDorm.g.cs
+D:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\Profile.g.cs
+D:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\ShowDorm.g.cs
+D:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\DormItemHori.g.cs
+D:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\HomeControl.g.cs
+D:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\DormItem.g.cs
+D:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\Noti_Login_Success.g.cs
+D:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\SliderShow.g.cs
+D:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\ResetPassController.g.cs
+D:\Dorm\DormFinding\DormFinding\obj\Debug\Window\MainControl.g.cs
+D:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\LoadingBar.g.cs
+D:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\SignUp.g.cs
+D:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\Login.g.cs
+D:\Dorm\DormFinding\DormFinding\obj\Debug\Window\MainWindow.g.cs
+D:\Dorm\DormFinding\DormFinding\obj\Debug\Window\SplashScreen.g.cs
+D:\Dorm\DormFinding\DormFinding\obj\Debug\App.g.cs
+D:\Dorm\DormFinding\DormFinding\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Dorm\DormFinding\DormFinding\obj\Debug\DormFinding_MarkupCompile.cache
+D:\Dorm\DormFinding\DormFinding\obj\Debug\DormFinding_MarkupCompile.lref
+D:\Dorm\DormFinding\DormFinding\obj\Debug\App.baml
+D:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\RowComment.baml
+D:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\ScreenBooking.baml
+D:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\RowBooking.baml
+D:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\RowLayout.baml
+D:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\MyDorm.baml
+D:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\LikedDorm.baml
+D:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\PostDorm.baml
+D:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\Profile.baml
+D:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\ShowDorm.baml
+D:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\DormItemHori.baml
+D:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\HomeControl.baml
+D:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\DormItem.baml
+D:\Dorm\DormFinding\DormFinding\obj\Debug\StyleResource.baml
+D:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\Noti_Login_Success.baml
+D:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\SliderShow.baml
+D:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\ResetPassController.baml
+D:\Dorm\DormFinding\DormFinding\obj\Debug\Window\MainControl.baml
+D:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\LoadingBar.baml
+D:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\SignUp.baml
+D:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\Login.baml
+D:\Dorm\DormFinding\DormFinding\obj\Debug\Window\MainWindow.baml
+D:\Dorm\DormFinding\DormFinding\obj\Debug\Window\SplashScreen.baml
+D:\Dorm\DormFinding\DormFinding\obj\Debug\DormFinding.g.resources
+D:\Dorm\DormFinding\DormFinding\obj\Debug\DormFinding.Properties.Resources.resources
+D:\Dorm\DormFinding\DormFinding\obj\Debug\DormFinding.csproj.GenerateResource.cache
+D:\Dorm\DormFinding\DormFinding\obj\Debug\DormFinding.csproj.CoreCompileInputs.cache
+D:\Dorm\DormFinding\DormFinding\obj\Debug\DormFinding.csproj.CopyComplete
+D:\Dorm\DormFinding\DormFinding\obj\Debug\DormFinding.exe
+D:\Dorm\DormFinding\DormFinding\obj\Debug\DormFinding.pdb
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\DormFinding.csprojAssemblyReference.cache
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\SupportUserController\RowComment.g.cs
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\ScreenBooking.g.cs
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\SupportUserController\RowBooking.g.cs
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\SupportUserController\RowLayout.g.cs
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\Profile.g.cs
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\SupportUserController\RowComment.baml
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\ScreenBooking.baml
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\SupportUserController\RowBooking.baml
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\SupportUserController\RowLayout.baml
+D:\DormFinding\DormFinding\DormFinding\obj\Debug\UserController\Profile.baml
+D:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\WaittingScreen.g.cs
+D:\Dorm\DormFinding\DormFinding\obj\Debug\DormFinding_Content.g.cs
+D:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\WaittingScreen.baml
+D:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\RowWaitting.g.cs
+D:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\RowWaitting.baml
+D:\Dorm\DormFinding\DormFinding\obj\Debug\DormFinding.csprojAssemblyReference.cache
+E:\Dorm\DormFinding\DormFinding\bin\Debug\DormFinding.exe.config
+E:\Dorm\DormFinding\DormFinding\bin\Debug\DormFinding.exe
+E:\Dorm\DormFinding\DormFinding\bin\Debug\DormFinding.pdb
+E:\Dorm\DormFinding\DormFinding\bin\Debug\BouncyCastle.Crypto.dll
+E:\Dorm\DormFinding\DormFinding\bin\Debug\CmdLine.dll
+E:\Dorm\DormFinding\DormFinding\bin\Debug\Facebook.dll
+E:\Dorm\DormFinding\DormFinding\bin\Debug\FontAwesome.WPF.dll
+E:\Dorm\DormFinding\DormFinding\bin\Debug\Google.Protobuf.dll
+E:\Dorm\DormFinding\DormFinding\bin\Debug\K4os.Compression.LZ4.dll
+E:\Dorm\DormFinding\DormFinding\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\Dorm\DormFinding\DormFinding\bin\Debug\K4os.Hash.xxHash.dll
+E:\Dorm\DormFinding\DormFinding\bin\Debug\MaterialDesignColors.dll
+E:\Dorm\DormFinding\DormFinding\bin\Debug\MaterialDesignThemes.Wpf.dll
+E:\Dorm\DormFinding\DormFinding\bin\Debug\Microsoft.Xaml.Behaviors.dll
+E:\Dorm\DormFinding\DormFinding\bin\Debug\MySql.Data.dll
+E:\Dorm\DormFinding\DormFinding\bin\Debug\Prism.dll
+E:\Dorm\DormFinding\DormFinding\bin\Debug\Prism.Wpf.dll
+E:\Dorm\DormFinding\DormFinding\bin\Debug\Renci.SshNet.dll
+E:\Dorm\DormFinding\DormFinding\bin\Debug\System.Buffers.dll
+E:\Dorm\DormFinding\DormFinding\bin\Debug\System.Data.SqlClient.dll
+E:\Dorm\DormFinding\DormFinding\bin\Debug\System.Memory.dll
+E:\Dorm\DormFinding\DormFinding\bin\Debug\System.Numerics.Vectors.dll
+E:\Dorm\DormFinding\DormFinding\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Dorm\DormFinding\DormFinding\bin\Debug\Ubiety.Dns.Core.dll
+E:\Dorm\DormFinding\DormFinding\bin\Debug\Zstandard.Net.dll
+E:\Dorm\DormFinding\DormFinding\bin\Debug\Facebook.xml
+E:\Dorm\DormFinding\DormFinding\bin\Debug\FontAwesome.WPF.xml
+E:\Dorm\DormFinding\DormFinding\bin\Debug\Google.Protobuf.pdb
+E:\Dorm\DormFinding\DormFinding\bin\Debug\Google.Protobuf.xml
+E:\Dorm\DormFinding\DormFinding\bin\Debug\K4os.Compression.LZ4.xml
+E:\Dorm\DormFinding\DormFinding\bin\Debug\K4os.Compression.LZ4.Streams.xml
+E:\Dorm\DormFinding\DormFinding\bin\Debug\K4os.Hash.xxHash.xml
+E:\Dorm\DormFinding\DormFinding\bin\Debug\MaterialDesignColors.pdb
+E:\Dorm\DormFinding\DormFinding\bin\Debug\MaterialDesignThemes.Wpf.pdb
+E:\Dorm\DormFinding\DormFinding\bin\Debug\MaterialDesignThemes.Wpf.xml
+E:\Dorm\DormFinding\DormFinding\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+E:\Dorm\DormFinding\DormFinding\bin\Debug\Microsoft.Xaml.Behaviors.xml
+E:\Dorm\DormFinding\DormFinding\bin\Debug\MySql.Data.xml
+E:\Dorm\DormFinding\DormFinding\bin\Debug\Prism.pdb
+E:\Dorm\DormFinding\DormFinding\bin\Debug\Prism.xml
+E:\Dorm\DormFinding\DormFinding\bin\Debug\Prism.Wpf.pdb
+E:\Dorm\DormFinding\DormFinding\bin\Debug\Prism.Wpf.xml
+E:\Dorm\DormFinding\DormFinding\bin\Debug\Renci.SshNet.xml
+E:\Dorm\DormFinding\DormFinding\bin\Debug\System.Buffers.xml
+E:\Dorm\DormFinding\DormFinding\bin\Debug\System.Data.SqlClient.xml
+E:\Dorm\DormFinding\DormFinding\bin\Debug\System.Memory.xml
+E:\Dorm\DormFinding\DormFinding\bin\Debug\System.Numerics.Vectors.xml
+E:\Dorm\DormFinding\DormFinding\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Dorm\DormFinding\DormFinding\obj\Debug\DormFinding.csprojAssemblyReference.cache
+E:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\RowWaitting.g.cs
+E:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\RowComment.g.cs
+E:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\ScreenBooking.g.cs
+E:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\RowBooking.g.cs
+E:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\RowLayout.g.cs
+E:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\MyDorm.g.cs
+E:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\LikedDorm.g.cs
+E:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\PostDorm.g.cs
+E:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\Profile.g.cs
+E:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\ShowDorm.g.cs
+E:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\DormItemHori.g.cs
+E:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\HomeControl.g.cs
+E:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\DormItem.g.cs
+E:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\Noti_Login_Success.g.cs
+E:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\SliderShow.g.cs
+E:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\ResetPassController.g.cs
+E:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\WaittingScreen.g.cs
+E:\Dorm\DormFinding\DormFinding\obj\Debug\Window\MainControl.g.cs
+E:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\LoadingBar.g.cs
+E:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\SignUp.g.cs
+E:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\Login.g.cs
+E:\Dorm\DormFinding\DormFinding\obj\Debug\Window\MainWindow.g.cs
+E:\Dorm\DormFinding\DormFinding\obj\Debug\Window\SplashScreen.g.cs
+E:\Dorm\DormFinding\DormFinding\obj\Debug\App.g.cs
+E:\Dorm\DormFinding\DormFinding\obj\Debug\DormFinding_Content.g.cs
+E:\Dorm\DormFinding\DormFinding\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Dorm\DormFinding\DormFinding\obj\Debug\DormFinding_MarkupCompile.cache
+E:\Dorm\DormFinding\DormFinding\obj\Debug\DormFinding_MarkupCompile.lref
+E:\Dorm\DormFinding\DormFinding\obj\Debug\App.baml
+E:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\RowWaitting.baml
+E:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\RowComment.baml
+E:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\ScreenBooking.baml
+E:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\RowBooking.baml
+E:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\RowLayout.baml
+E:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\MyDorm.baml
+E:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\LikedDorm.baml
+E:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\PostDorm.baml
+E:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\Profile.baml
+E:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\ShowDorm.baml
+E:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\DormItemHori.baml
+E:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\HomeControl.baml
+E:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\DormItem.baml
+E:\Dorm\DormFinding\DormFinding\obj\Debug\StyleResource.baml
+E:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\Noti_Login_Success.baml
+E:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\SliderShow.baml
+E:\Dorm\DormFinding\DormFinding\obj\Debug\SupportUserController\ResetPassController.baml
+E:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\WaittingScreen.baml
+E:\Dorm\DormFinding\DormFinding\obj\Debug\Window\MainControl.baml
+E:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\LoadingBar.baml
+E:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\SignUp.baml
+E:\Dorm\DormFinding\DormFinding\obj\Debug\UserController\Login.baml
+E:\Dorm\DormFinding\DormFinding\obj\Debug\Window\MainWindow.baml
+E:\Dorm\DormFinding\DormFinding\obj\Debug\Window\SplashScreen.baml
+E:\Dorm\DormFinding\DormFinding\obj\Debug\DormFinding.g.resources
+E:\Dorm\DormFinding\DormFinding\obj\Debug\DormFinding.Properties.Resources.resources
+E:\Dorm\DormFinding\DormFinding\obj\Debug\DormFinding.csproj.GenerateResource.cache
+E:\Dorm\DormFinding\DormFinding\obj\Debug\DormFinding.csproj.CoreCompileInputs.cache
+E:\Dorm\DormFinding\DormFinding\obj\Debug\DormFinding.csproj.CopyComplete
+E:\Dorm\DormFinding\DormFinding\obj\Debug\DormFinding.exe
+E:\Dorm\DormFinding\DormFinding\obj\Debug\DormFinding.pdb

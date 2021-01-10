@@ -1,0 +1,67 @@
+﻿<UserControl x:Class="DormFinding.WaittingScreen"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:local="clr-namespace:DormFinding"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <materialDesign:TransitioningContent x:Name="TransitioningContentSlide"
+                                         OpeningEffect="{materialDesign:TransitionEffect FadeIn, Duration=0:0:1}">
+        <Grid x:Name="layoutMain">
+            <ScrollViewer Grid.Row="2"
+                                      Background="Transparent"
+                                      Margin="0 30 0 0"
+                                      HorizontalScrollBarVisibility="Hidden"
+                                      VerticalScrollBarVisibility="Auto"
+                                      materialDesign:ScrollBarAssist.ButtonsVisibility="Collapsed">
+                <Grid>
+                    <StackPanel Orientation="Vertical"
+                                            Margin="20 0 0 0">
+                        <TextBlock Text="Dorms"
+                                               VerticalAlignment="Top"
+                                               FontSize="28"
+                                               FontFamily="Avenir LT Std 65 Medium"
+                                               Foreground="Black"
+                                               HorizontalAlignment="Left" />
+                        <ListView                 Width="auto"
+                                              Height="auto"
+                                              Margin="-10 5 0 0"
+                                              x:Name="listViewDormBook"    
+                                              SelectionChanged="listViewDormBook_SelectionChanged"
+                                              ItemsSource="{Binding BookDorm}">
+                            <ListView.ItemContainerStyle>
+                                <Style TargetType="{x:Type ListViewItem}">
+                                    <Setter Property="Background"
+                                                        Value="Transparent" />
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="{x:Type ListViewItem}">
+                                                <ContentPresenter />
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+                            </ListView.ItemContainerStyle>
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <local:RowWaitting Margin="0 0 10 10"
+                                                                 Width="380"
+                                                                 Height="45"
+                                                                 />
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                            <ListView.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <WrapPanel Width="1150" />
+                                </ItemsPanelTemplate>
+                            </ListView.ItemsPanel>
+
+                        </ListView>
+                    </StackPanel>
+                </Grid>
+            </ScrollViewer>
+        </Grid>
+    </materialDesign:TransitioningContent>
+</UserControl>

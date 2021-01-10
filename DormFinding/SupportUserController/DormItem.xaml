@@ -1,0 +1,243 @@
+﻿<UserControl x:Class="DormFinding.DormItem"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:DormFinding"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:fa="http://schemas.fontawesome.io/icons/"
+             mc:Ignorable="d"
+             Background="Transparent"
+             d:DesignHeight="190"
+             d:DesignWidth="600">
+
+    <materialDesign:TransitioningContent x:Name="TransitioningContentSlide"
+                                         OpeningEffect="{materialDesign:TransitionEffect SlideInFromBottom, Duration=0:0:0:0.8}">
+        <Grid Cursor="Hand">
+            <Grid.Resources>
+                <ResourceDictionary Source="../StyleResource.xaml"></ResourceDictionary>
+            </Grid.Resources>
+            <Border CornerRadius="10"
+                    Grid.ColumnSpan="2"
+                    Grid.RowSpan="2"
+                    Background="{StaticResource colorSky}" />
+            <Border  Grid.Row="0"
+                     Background="{StaticResource colorSky}"
+                     Grid.ColumnSpan="2"
+                     CornerRadius="10 10 0 0" />
+            <Border Grid.Column="1"
+                    Margin="16"
+                    CornerRadius="10"
+                    Background="{StaticResource colorGreen}"
+                    Grid.Row="1">
+                <Button 
+                        FontSize="18"
+                        BorderThickness="0"
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Center"
+                        FontFamily="Champagne &amp; Limousines"
+                        RenderTransformOrigin="0.5,0.5"                      
+                        Background="Transparent"
+                        FontWeight="Bold"
+                        Padding="0"
+                        Width="140"
+                        Height="68"
+                        Margin="-35,39,-37,41">
+                    <Button.Content>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Sale"
+                                   Margin="-5 0 0 0"
+                                   FontFamily="Champagne &amp; Limousines"
+                                   Foreground="{StaticResource colorWhite}" />
+                            <Label Content="{Binding Sale}"
+                                   FontFamily="Champagne &amp; Limousines"
+                                   Foreground="{StaticResource colorWhite}"/>
+                            <Label Content="%"
+                                   Margin="-5 0 0 0"
+                                   FontFamily="Champagne &amp; Limousines"
+                                   Foreground="{StaticResource colorWhite}"
+                                   />
+                        </StackPanel>
+                    </Button.Content>
+                    <Button.RenderTransform>
+                        <TransformGroup>
+                            <RotateTransform Angle="270"
+                                              />
+                        </TransformGroup>
+                    </Button.RenderTransform>
+                </Button>
+            </Border>
+            <Border Grid.Row="1"
+                  
+                    Grid.Column="0"
+                    CornerRadius="10"
+                    Background="WhiteSmoke">
+                <Border.Effect>
+                    <DropShadowEffect BlurRadius="1" ShadowDepth="3" Opacity="0.5" Color="Gray"/>
+                </Border.Effect>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.9*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Border Grid.Column="0"
+                            Width="192"
+                            CornerRadius="8"
+                            Margin="16">
+                        <Border.Background>
+                            <ImageBrush ImageSource="{Binding Image}"
+                                        Stretch="UniformToFill" />
+                        </Border.Background>
+                    </Border>
+                    <StackPanel Margin="0,16"
+                                Grid.Column="1"
+                                Orientation="Vertical">
+                        <TextBlock Text="{Binding Owner}"
+                                   FontSize="20"
+                                   TextTrimming="CharacterEllipsis"
+                                   FontFamily="Avenir LT Std 65 Medium" />
+                        <StackPanel Orientation="Horizontal"
+                                    Margin="0 5 0 0">
+                            <materialDesign:PackIcon Kind="Location"
+                                                     Width="20"                                                   
+                                                     Height="20"
+                                                     Foreground="Gray" />
+                            <TextBlock Text="{Binding Address}"
+                                       FontSize="14"
+                                       TextTrimming="CharacterEllipsis"
+                                       VerticalAlignment="Center"
+                                       FontStyle="Italic"
+                                       Foreground="{StaticResource colorGray}"
+                                       FontFamily="Helvetica Neue" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal"
+                                    Margin="0 5 0 0">
+                            <materialDesign:PackIcon Kind="Dollar"
+                                                     VerticalAlignment="Center"
+                                                     Width="20"
+                                                     Height="20"
+                                                     Foreground="{StaticResource colorBlue}" />
+                            <TextBlock Text="{Binding Price}"
+                                       FontSize="14"
+                                       VerticalAlignment="Center"
+                                       Foreground="{StaticResource colorBlue}"
+                                       FontFamily="Avenir LT Std 65 Medium" />
+                            <TextBlock Text=" / months"
+                                       FontSize="12"
+                                       FontFamily="Avenir LT Std 65 Medium"
+                                       Margin="0 -2 0 0"
+                                       VerticalAlignment="Center"
+                                       Foreground="{StaticResource colorBlue}" />
+                        </StackPanel>
+                        <TextBlock Text="Aminities"
+                                   HorizontalAlignment="Left"
+                                   VerticalAlignment="Center"
+                                   Margin="8 10 0 0"
+                                   FontSize="15"
+                                   FontFamily="Avenir LT Std 65 Medium" />
+                        <StackPanel Orientation="Horizontal"
+                                    Margin="6 5 0 0 ">
+                            <StackPanel.Resources>
+                                <Style TargetType="Border">
+                                    <Setter Property="Width"
+                                            Value="40" />
+                                    <Setter Property="Height"
+                                            Value="40" />
+                                    <Setter Property="Margin"
+                                            Value="0 0 10 0" />
+                                    <Setter Property="CornerRadius"
+                                            Value="10" />
+                                    <Setter Property="Background"
+                                            Value="{StaticResource colorWhite }" />
+                                    <Setter Property="BorderThickness"
+                                            Value="1.5" />
+                                    <Setter Property="BorderBrush"
+                                            Value="{StaticResource colorSky}" />
+                                </Style>
+                            </StackPanel.Resources>
+                            <Border>
+                                <Canvas HorizontalAlignment="Left"
+                                        Width="40"
+                                        Height="40"
+                                        VerticalAlignment="Top">
+                                    <materialDesign:PackIcon Kind="Wifi"
+                                                             Foreground="{StaticResource colorSky}"
+                                                             Canvas.Left="10"
+                                                             Canvas.Top="11" />
+                                    <Image Source="../images/icon_line.png"
+                                           Height="18"
+                                           Width="18"
+                                           Visibility="{Binding IsWifi}"
+                                           Canvas.Left="10"
+                                           Canvas.Top="10" />
+                                </Canvas>
+                            </Border>
+                            <Border>
+                                <Canvas HorizontalAlignment="Left"
+                                        Width="40"
+                                        Height="40"
+                                        VerticalAlignment="Top">
+                                    <materialDesign:PackIcon Kind="Bicycle"
+                                                             Foreground="{StaticResource colorSky}"
+                                                             Canvas.Left="10"
+                                                             Canvas.Top="11" />
+                                    <Image Source="../images/icon_line.png"
+                                           Height="18"
+                                           Width="18"
+                                           Visibility="{Binding IsParking}"
+                                           Canvas.Left="10"
+                                           Canvas.Top="10" />
+                                </Canvas>
+                            </Border>
+                            <Border>
+                                <Canvas HorizontalAlignment="Left"
+                                        Width="40"
+                                        Height="40"
+                                        VerticalAlignment="Top">
+                                    <materialDesign:PackIcon Kind="Television"
+                                                             Foreground="{StaticResource colorSky}"
+                                                             Canvas.Left="10"
+                                                             Canvas.Top="11" />
+                                    <Image Source="../images/icon_line.png"
+                                           Height="18"
+                                           Width="18"
+                                           Visibility="{Binding IsTelevision}"
+                                           Canvas.Left="10"
+                                           Canvas.Top="10" />
+                                </Canvas>
+                            </Border>
+                            <Border>
+                                <Canvas HorizontalAlignment="Left"
+                                        Width="40"
+                                        Height="40"
+                                        VerticalAlignment="Top">
+                                    <fa:FontAwesome          Icon="Bath"
+                                                             FontSize="15"
+                                                             Foreground="{StaticResource colorSky}"
+                                                             Canvas.Left="11"
+                                                             Canvas.Top="11" />
+                                    <Image Source="../images/icon_line.png"
+                                           Height="18"
+                                           Width="18"
+                                           Visibility="{Binding IsBathroom}"
+                                           Canvas.Left="10"
+                                           Canvas.Top="10" />
+                                </Canvas>
+                            </Border>
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
+            </Border>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="0.2*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.06*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+
+        </Grid>
+    </materialDesign:TransitioningContent>
+</UserControl>
