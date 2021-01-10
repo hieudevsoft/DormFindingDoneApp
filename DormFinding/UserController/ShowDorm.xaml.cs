@@ -452,7 +452,7 @@ namespace DormFinding
         {
             if (user.Email.Equals(owner.Email))
             {
-                Helpers.MakeErrorMessage(Window.GetWindow(this), "You are owner so can't book dorm", "Error");
+                Helpers.MakeErrorMessage(Window.GetWindow(this), "Can not book this dorm, you are its owner", "Error");
             }
             else if(!BookDatabase.GetEmailBookDorm(owner.Email,dorm.Id).Equals("No"))
             {
@@ -503,7 +503,7 @@ namespace DormFinding
         {
             if (user.Email.Equals(owner.Email))
             {
-                Helpers.MakeErrorMessage(Window.GetWindow(this), "You are owner so can't rating", "Error");
+                Helpers.MakeErrorMessage(Window.GetWindow(this), "You can not give feedback to your own dorm", "Error");
             }
             else
             {
@@ -513,13 +513,13 @@ namespace DormFinding
                     Comment = tbComment.Text.Trim();
                     if (ValueRating == 0)
                     {
-                        Helpers.MakeErrorMessage(Window.GetWindow(this), "You must rating dorm " , "Error");
+                        Helpers.MakeErrorMessage(Window.GetWindow(this), "Please also rate this dorm..." , "Error");
                     }
                     else
                     {
                         if (CommentDatabase.Insert(owner.Email, dorm.Id, user.Email, Comment, ValueRating))
                         {
-                            Helpers.MakeConfirmMessage(Window.GetWindow(this), "Thanks you bro", "Notify");
+                            Helpers.MakeConfirmMessage(Window.GetWindow(this), "Thanks for your feedback", "Notify");
                             if (CommentDatabase.GetAvgRating(owner.Email, dorm.Id) != -1)
                             {
                                 DormDatabase.UpdateRating(dorm.Id, CommentDatabase.GetAvgRating(owner.Email, dorm.Id));
@@ -536,12 +536,12 @@ namespace DormFinding
                         }
                         else
                         {
-                            Helpers.MakeErrorMessage(Window.GetWindow(this), "You already rating this dorm", "Error");
+                            Helpers.MakeErrorMessage(Window.GetWindow(this), "You already gave this dorm a feedback", "Error");
                         }
                     }
                 }
                 else
-                    Helpers.MakeErrorMessage(Window.GetWindow(this), "You can't comment because you have never book this dorm", "Error");
+                    Helpers.MakeErrorMessage(Window.GetWindow(this), "You have never booked this dorm before, can not give feedback", "Error");
             }
         }
     }
